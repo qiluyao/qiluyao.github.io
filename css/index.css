@@ -1,0 +1,847 @@
+
+* @Author: Marte
+* @Date:   2017-11-21 09:21:56
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-11-27 14:18:53
+*/
+/*sitebar开始*/
+.sitebar{
+    width: 100%;/*宽度是百分之百*/
+    height:120px;/*高度是120px*/
+    background-image: url('../imge/1.jpg');/*背景图片 url（‘相对路径’）*/
+    background-size: cover;/*背景图片的大小，cover 覆盖*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sitebar>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*sitebar结束*/
+/*topbar开始*/
+.topbar{
+    width: 100%;
+    height: 40px;
+    background: #333333;
+
+}
+.container{
+    width: 1226px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listbar{
+    height: 40px;
+    float:left;
+    padding:14px 0;
+}
+.listbar>div{
+    line-height: 12px;
+    font-size:12px;
+    height: 12px;
+    float: left;
+    color: #b0b0b0;
+    cursor: pointer;/*鼠标*/
+}
+.listbar>div:hover{
+    color: #fff;
+}
+.listbar>span{
+    line-height:12px;
+    font-size:12px;
+    display: block;
+    height: 12px;
+    float: left;
+    color:#424242;
+    margin-right:6px;
+    margin-left:6px;
+}
+.buy{
+    width: 120px;
+    height: 40px;
+    line-height:40px;
+    color:#b0b0b0;
+    font-size:12px;
+    float: right;
+    cursor:pointer;
+    text-align: center;
+}
+.buy i{
+    margin-right:4px;
+}
+.buy:hover{
+    background:#fff;
+    color:#fa6700;
+}
+.tips{
+    padding: 14px 0;
+    float: right;
+    margin-right:20px;
+}
+.tips>div{
+    line-height:12px;
+    color:#b0b0b0;
+    font-size:12px;
+    height: 12px;
+    float: left;
+    cursor:pointer;
+}
+.tips>span{
+    line-height:12px;
+    font-size:12px;
+    display: block;
+    height: 12px;
+    float: left;
+    color:#424242;
+    margin-right:6px;
+    margin-left:6px;
+}
+.listbar>div:hover{
+    color: #fff;
+}
+/*topbar结束*/
+/*header开始*/
+.header{
+    width: 100%;
+    height: 100px;
+}
+.header .header-logo{
+    float: left;
+    width:56px;
+    height: 56px;
+    margin-top: 22px;
+    background:#ff6700;
+}
+.header .header-logo>a{
+    display: block;
+    width:100%;
+    height:100%;
+    background-image: url('../imge/mi-logo.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+.header .header-nav{
+    width:850px;
+    height: 100%;
+    float: left;
+    padding-left: 172px;
+    padding-bottom: 12px;
+}
+.header .header-nav>div{
+    float: left;
+    height: 88px;
+    line-height:88px;
+    text-align:center;
+    margin-right:10px;
+    margin-left:10px;
+    font-size:12px;
+    cursor:pointer;
+}
+.header .header-nav>div:hover{
+    color:#ff6700;
+}
+.header .header-search{
+    width:297px;
+    height: 50px;
+    margin-top:25px;
+    float: right;
+    border: 1px solid #e0e0e0;
+    position: relative;/*相对自身的位置*/
+}
+.header .header-search:hover{
+    bordrt:1px solid #333;
+}
+.header .header-search>input{
+    display: block;
+    width:245px;
+    height: 100%;
+    float: left;
+    padding-left:10px;
+}
+.header .header-search>.sosuo{
+    width:50px;
+    height: 100%;
+    border-left: 1px solid #e0e0e0;
+    float: left;
+    text-align:center;
+    line-height:50px;
+    cursor:pointer;
+}
+.header .header-search>.sosuo:hover{
+    background:#ff6700;
+    color:#fff;
+}
+.header .header-search>.sosuo>i{
+    font-size:20px;
+}
+.hm{
+    height: 18px;
+    width:49px;
+    font-size:12px;
+    background:#eee;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    left: 50px;
+    text-align:center;
+    cursor:pointer;
+}
+.hm:hover{
+    background:#ff6700;
+    color:#fff;
+}
+.xm{
+    height: 18px;
+    width:130px;
+    font-size:12px;
+    background:#eee;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    left:110px;
+    cursor:pointer;
+}
+.xm:hover{
+    background:#ff6700;
+    color:#fff;
+}
+/*header结束*/
+/*home-hero开始*/
+.home-hero{
+    width: 100%;
+    height:644px;
+    margin-bottom:26px;
+}
+.home-hero .home-top{
+    width: 1226px;
+    height: 460px;
+    margin-bottom: 14px;
+    position:relative;
+}
+.home-top .home-list{
+    width: 234px;
+    height: 460px;
+    background:rgba(0,0,0,0.4);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 25;/*设置层级*/
+    padding:20px 0;
+}
+.home-list>div{
+    width: 100%;
+    height: 42px;
+    text-align: left;
+    padding-left:30px;
+    padding-right: 24px;
+    line-height:42px;
+}
+.home-list>div:hover{
+    background:#ff6700;
+}
+.home-list>div>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size:14px;
+    color: #fff;
+}
+.home-list>div>a>i{
+    float: right;
+    font-size:12px;
+}
+.home-top .home-imgs{
+    width: 100%;
+    height: 460px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.home-top .home-imgs>img{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.home-hero .home-bottom{
+    width: 1226px;
+    height: 170px;
+}
+.home-top .btn{
+    width: 41px;
+    height: 69px;
+    text-align:center;
+    line-height:69px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    color:#ccc;
+    cursor:pointer;
+}
+.home-top .btn>i{
+    font-size:40px;
+}
+.home-top .left-btn{
+    left:234px;
+}
+.home-top .right-btn{
+    right:0;
+}
+.home-top .btn:hover{
+    background:rgba(0,0,0,0.6);
+    color:#fff;
+}
+.home-top .lbd{
+    width: 400px;
+    height: 8px;
+    position:absolute;
+    right:40px;
+    bottom:30px;
+    z-index:99;
+}
+.home-top .lbd>div{
+    width: 8px;
+    height: 8px;
+    background:#808c92;
+    float: right;
+    margin:0 5px;
+    border:1px solid #A7AFB3;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.home-top .lbd>div:hover{
+    border:1px solid #979797;
+    background:#D88185;
+}
+.home-bottom .btn-left{
+    width: 234px;
+    height: 170px;
+    background:#5f5750;
+    float: left;
+}
+.btn-left>div{
+    width: 33.333333%;
+    height: 50%;
+    padding:20px 0;
+    float: left;
+    font-size:12px;
+    text-align:center;
+    color:#cfcdcb;
+    position:relative;
+    border:
+}
+.btn-left>div i{
+    display: block;
+    height: 24px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 24px;
+}
+.btn-left>div .you{
+    width: 1px;
+    height: 65px;
+    background:#665E57;
+    top:10px;
+    right:0;
+    position:absolute;
+}
+.btn-left>div .xia{
+    width: 58px;
+    height: 1px;
+    background:#665E57;
+    bottom:0px;
+    left:10px;
+    position:absolute;
+}
+.home-bottom .btn-right{
+    width:978px;
+    height: 170px;
+    float: right;
+}
+.btn-right>img{
+    width: 316px;
+    height: 170px;
+    float: left;
+    margin-left:15px;
+}
+.btn-right>img:nth-of-type(1){
+    margin-left:0;
+}
+/*home-herox结束*/
+/*chanping开始*/
+.chanping{
+    width: 100%;
+    height:438px;
+    position:relative;
+
+}
+.chanping .dp{
+    width: 1226px;
+    height: 58px;
+    position:relative;
+    line-height:58px;
+    color:#333;
+    margin-top:20px;
+}
+.dp>h2{
+    font-weight:400;
+    float: left;
+}
+/*外框*/
+.dp>.more{
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    right:0;
+    width:72px;
+    height: 25px;
+    line-height:25px;
+    border:1px solid #ccc;
+
+}
+/*两个键头位置和大小*/
+.dp>.more>div{
+    width: 50%;
+    height:100%;
+    float: left;
+    color:#ccc;
+    text-align:center;
+    cursor:pointer;
+}
+/*键头大小和粗细*/
+.dp>.more>div i{
+    display:block;
+    height:25px;
+    font-size:14px;
+    font-weight:500px;
+}
+/*给左键头一个颜色*/
+.dp>.more .active{
+    color:#000;
+}
+/*中间实线*/
+.dp>.more .right{
+    border-left:1px solid #ccc;
+}
+.chanping .good-list{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.good-list>div{
+    flex:none;
+    width: 234px;
+    height: 300px;
+    background:#fafafa;
+    border-top: 1px solid #ffac13;
+    padding-top:39px;
+}
+.good-list>div:nth-of-type(2){
+    border-top-color: #83c44e;
+}
+.good-list>div:nth-of-type(3){
+    border-top-color: #2196f3;
+}
+.good-list>div:nth-of-type(4){
+    border-top-color: #e53935;
+}
+.good-list>div:nth-of-type(5){
+    border-top-color: #00c0a5;
+}
+.good-list>div>img{
+    width: 160px;
+    height: 160px;
+    margin:0 auto;
+}
+.good-list>div>a{
+    display:block;
+    width: 100%;
+    height: 14px;
+    text-align:center;
+    font-size:14px;
+    line-height:14px;
+    color:#212121;
+    padding-top:20px;
+}
+.good-list>div> .desc{
+    display: block;
+    width: 100%;
+    height: 16px;
+    text-align:center;
+    font-size:14px;
+    line-height:12px;
+    color:#757575;
+    padding-top:30px;
+}
+.good-list>div> .price{
+    display: block;
+    width: 100%;
+    height: 21px;
+    text-align:center;
+    font-size:16px;
+    color:#ff6700;
+    line-height:16px;
+    padding-top:30px;
+}
+/*chanping结束*/
+/*jiadian开始*/
+.jiadian{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    background:#F5F5F5;
+    padding-top:60px;
+}
+.jd{
+    width: 1226px;
+    height:auto;
+    // overflow:hidden;
+}
+.jd .jd-shang{
+    width: 100%;
+    height:58px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+}
+.jd-shang h2{
+    font-weight:400;
+    font-size:25px;
+    color:#333;
+}
+.jd-shang>div{
+    width: 380px;
+    height: 42px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:16px;
+    color:#333;
+}
+.jd-shang>div>p{
+    flex:none;
+    height: 30px;
+    line-height:30px;
+    cursor: pointer;
+}
+.jd-shang>div>p:hover{
+    color:#ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+.jd-xia{
+    width:100%;
+    height: 614px;
+}
+.jd-xia .xia-left{
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+.jd-xia .xia-right{
+    width: 992px;
+    height: 614px;
+    float: left;
+}
+.jd-xia .xia-right>div{
+    width: 234px;
+    height: 297px;
+    margin-left:14px;
+    margin-bottom:20px;
+    float: left;
+    color:#333;
+    background:#fff;
+    text-align:center;
+    padding-top:34px;
+}
+.xia-right>div>img{
+    width: 150px;
+    height: 150px;
+    margin:0 auto;
+}
+.xia-right>div .desc{
+    font-size:12px;
+    color:#ccc;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.xia-right>div .price{
+    color:#ff6700;
+}
+.xia-right>div .price>span{
+    color:#ccc;
+    text-decoration: line-through;
+}
+.jiadian .xia-right .right{
+    padding-top:0;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+    background:rgba(0,0,0,0);
+}
+.jiadian .xia-right .right>div{
+    width: 100%;
+    height: 143px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:30px;
+    background:#fff;
+}
+.xia-right .right>div>div{
+    width: 94px;
+    height: auto;
+    float: left;
+    overflow:hidden;
+    text-align: left;
+    margin-top:20px;
+    line-height:20px;
+}
+.xia-right .right>div .price{
+    margin-top:10px;
+}
+.xia-right .right>div>img{
+    width: 80px;
+    height: 80px;
+    float: right;
+}
+.xia-right .right>div .h{
+    width: 48px;
+    height: 48px;
+    margin-right:25px;
+    margin-top:15px;
+}
+.xia-right .right .hot{
+    color:#ccc;
+    font-size:12px;
+}
+.jd-xia .xia-left .half{
+    width: 234px;
+    height: 300px;
+    margin-bottom:14px;
+}
+.chanping .good-list>.no{
+    border-top:0;
+}
+.content{
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+}
+.content>.con-hd{
+    width: 1226px;
+    height: 58px;
+    line-height: 58px;
+
+
+}
+.content>.con-hd h2{
+    font-weight: 300;
+}
+.content>.con-db{
+    width: 1226px;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content>.con-db>div{
+    width: 296px;
+    height: 420px;
+    border-top: 1px solid #ffac13;
+    padding-top: 45px;
+    background: #fff;
+    position: relative;
+
+}
+.content>.con-db>div:nth-of-type(2){
+    border-color: #83c44e;
+}
+.content>.con-db>div:nth-of-type(3){
+    border-color: #e53935;
+}
+.content>.con-db>div:nth-of-type(4){
+    border-color: #2196f3;
+}
+.con-db>div>p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.con-db>div:nth-of-type(1)>p:nth-of-type(1){
+    font-size: 16px;
+    color: #ffac13;
+}
+.con-db>div:nth-of-type(2)>p:nth-of-type(1){
+    font-size: 16px;
+    color: #83c44e;
+}
+.con-db>div:nth-of-type(3)>p:nth-of-type(1){
+    font-size: 16px;
+    color: #e53935;
+}
+.con-db>div:nth-of-type(4)>p:nth-of-type(1){
+    font-size: 16px;
+    color:  #2196f3;
+}
+.con-db>div>p:nth-of-type(2){
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+.con-db>div>p:nth-of-type(3){
+    font-size: 12px;
+    color: #ccc;
+}
+.con-db>div>p:nth-of-type(4){
+    font-size: 12px;
+    color: #ccc;
+}
+.con-db>div>img{
+    width: 216px;
+    height: 154px;
+    margin: 0 auto;
+}
+.con-db>div>.lbd{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.con-db>div>.lbd>div{
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.con-db>div>.lbd>div.active{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #ff6700
+}
+.con-db>div>.lbd>div:hover{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #ff6700;
+
+}
+.con-db>div>.btn{
+    width: 20px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #ccc;
+    display: none;
+    cursor: pointer;
+}
+.con-db>div>.btn>i{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.con-db>div>.right-btn{
+    right: 0;
+}
+.con-db>div:hover .btn{
+    display: block;
+}
+.con-db>div>.btn:hover{
+    background: rgba(0,0,0,.6);
+}
+.chanping .good-list>div{
+    background:#fff;
+}
+.jiadian .reping{
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+}
+.reping .re-hd{
+    width: 100%;
+    height: 58px;
+    line-height:58px;
+}
+.reping .re-hd>h2{
+    font-weight:400;
+}
+.reping .re-db{
+    width: 1226px;
+    height:415px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.reping .re-db>div{
+    width: 296px;
+    height: 415px;
+    float: left;
+    background:#fff;
+}
+.reping .re-db>div>img{
+    width: 296px;
+    height: 220px;
+    margin-bottom:30px;
+
+}
+.reping .re-db>div>div{
+    width: 240px;
+    height: 72px;
+    line-height:24px;
+    font-size:14px;
+    color:#333;
+    margin:0 auto;
+}
+.reping .re-db>div>.desc{
+    width: 240px;
+    height: 18px;
+    font-size:12px;
+    color:#b0b0b0;
+    margin:15px 28px 8px;
+}
+.reping .re-db>div>.ih{
+    width: 236px;
+    height: 21px;
+    font-size:14px;
+    font-weight:400;
+    margin:10px 28px 8px;
+}
+.reping .re-db>div>.ih .mi{
+
+    width: 125px;
+    height: 17px;
+    display: inline;
+}
+.reping .re-db>div>.ih>span{
+    margin:0 8px;
+    color:#e0e0e0;
+}
+.reping .re-db>div>.ih .price{
+    width: 45px;
+    height: 17px;
+    display: inline;
+    color:#ff6700;
+}
+/*jiadian结束/
+
